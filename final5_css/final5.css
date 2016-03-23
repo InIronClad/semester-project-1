@@ -1,0 +1,127 @@
+﻿/* final5.css
+
+*/
+
+
+/* ===== Global Styles ===== */
+
+body {
+	font-family: "Trebuchet MS", sans-serif;
+	background: #bbb url(../final5_images/christmas_background2.jpg);
+	margin: 0;
+	padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6, li {
+	margin: 1ex, 1em;
+}
+
+table {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+tr, td {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+/* ===== outerTable ===== */
+
+#outerTable {
+	margin: 0 auto;
+	width: 770px;
+	background: #fff url(../final5_images/christmas_index_banner.jpg) no-repeat;
+}
+
+/* ===== contactButton =====*/
+
+td#contactButton {
+	height: 55px;
+}
+
+#contactButton div {
+	height: 30px;
+	margin: 0 0 0 650px;
+	padding: 0;
+}
+
+#contactButton img {
+	margin: 0;
+	border: none;
+}
+
+/* ===== mainMenu ===== */
+
+td#mainMenu {
+	margin: 0;
+	vertical-align: bottom;
+}
+
+#mainMenu div {
+	height: 30px;
+	margin-left: 200px;
+	padding: 0;
+}
+
+#mainMenu img {
+	margin: 0 5px;
+	border: none;
+}
+
+/* ===== mainContent(left column) =====*/
+
+td#contentLeft {
+	background-color: #fff;
+	width: 505px;
+}
+
+div#mainContent {
+	padding: 0 15px;
+	margin: 0;
+}
+
+#mainContent p {
+	font-family: Georgia, serif;
+	font-size: .9em;
+	line-height: 1.4em;
+	margin-left: 0;
+}
+
+#mainContent h1 {
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #1b9d95;
+	margin: 0 0 .4em 0;
+}
+
+/* ===== Sidebar (right column) ===== */
+
+td#contentRight {
+	background-color: #fff;
+	width: 265px;
+}
+
+div#sideBar {
+	padding: 0;
+	border-left: 1px solid #999;
+}
+
+#contentRight p {
+	font-family: "trebuchet MS", sans-serif;
+	font-size: .8em;
+	line-height: 1.2em;
+	color: #666;
+	margin: 0 0 3ex 0;
+}
+
+#contentRight h3 {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 1em;
+	color: #1b9d95;
+	margin: 1ex 0 .5ex 0;
+}
+
